@@ -32,6 +32,10 @@ class FlowerDetailTableViewController: UITableViewController {
             flower = Flower()
         }
         
+        flower.loadImage {
+            self.imageView.image = self.flower.flowerImage
+        }
+        
         let region = MKCoordinateRegion(center: flower.coordinate, latitudinalMeters: regionDistance, longitudinalMeters: regionDistance)
         mapView.setRegion(region, animated: true)
         
