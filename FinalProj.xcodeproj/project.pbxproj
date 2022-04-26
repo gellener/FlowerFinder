@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F1180EC28185E85005CB72F /* FlowerFactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1180EB28185E85005CB72F /* FlowerFactViewController.swift */; };
 		9FD37A55281774610060C9DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD37A54281774610060C9DC /* AppDelegate.swift */; };
 		9FD37A57281774610060C9DC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD37A56281774610060C9DC /* SceneDelegate.swift */; };
 		9FD37A59281774610060C9DC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD37A58281774610060C9DC /* LoginViewController.swift */; };
@@ -26,6 +27,7 @@
 /* Begin PBXFileReference section */
 		52E6A41D51C14F085D2B9118 /* Pods-FinalProj.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinalProj.debug.xcconfig"; path = "Target Support Files/Pods-FinalProj/Pods-FinalProj.debug.xcconfig"; sourceTree = "<group>"; };
 		9A427F76700C75AE8467AFBE /* Pods-FinalProj.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinalProj.release.xcconfig"; path = "Target Support Files/Pods-FinalProj/Pods-FinalProj.release.xcconfig"; sourceTree = "<group>"; };
+		9F1180EB28185E85005CB72F /* FlowerFactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerFactViewController.swift; sourceTree = "<group>"; };
 		9FD37A51281774610060C9DC /* FinalProj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalProj.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FD37A54281774610060C9DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9FD37A56281774610060C9DC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 				9FE0E7AC2817845F00D548EB /* FlowersListViewController.swift */,
 				9FE0E7AE281785FD00D548EB /* FlowerDetailTableViewController.swift */,
 				9FE0E7B428182BF800D548EB /* UIViewController+alert.swift */,
+				9F1180EB28185E85005CB72F /* FlowerFactViewController.swift */,
 				9FD37A5A281774610060C9DC /* Main.storyboard */,
 				9FD37A5D281774640060C9DC /* Assets.xcassets */,
 				9FD37A5F281774640060C9DC /* LaunchScreen.storyboard */,
@@ -255,6 +258,7 @@
 				9FE0E7AF281785FD00D548EB /* FlowerDetailTableViewController.swift in Sources */,
 				9FD37A57281774610060C9DC /* SceneDelegate.swift in Sources */,
 				9FE0E7AD2817845F00D548EB /* FlowersListViewController.swift in Sources */,
+				9F1180EC28185E85005CB72F /* FlowerFactViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

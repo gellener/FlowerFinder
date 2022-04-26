@@ -23,6 +23,9 @@ class FlowersListViewController: UIViewController {
         super.viewDidLoad()
         tableView.delegate = self
         tableView.dataSource = self
+        
+        navigationItem.title = "Flowers Found"
+        
         flowers = Flowers()
         
         
