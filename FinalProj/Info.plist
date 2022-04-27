@@ -32,9 +32,5 @@
 			</array>
 		</dict>
 	</dict>
-	<key>NSCameraUsageDescription</key>
-	<string>This app will need access to your camera in order to post photos.</string>
-	<key>NSPhotoLibraryUsageDescription</key>
-	<string>This app will need access to your photo library in order to post images to the app.</string>
 </dict>
 </plist>

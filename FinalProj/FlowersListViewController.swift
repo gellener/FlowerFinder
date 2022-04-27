@@ -59,6 +59,7 @@ extension FlowersListViewController: UITableViewDelegate, UITableViewDataSource 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
         cell.textLabel?.text = flowers.flowerArray[indexPath.row].flowerName
+        cell.detailTextLabel?.text = flowers.flowerArray[indexPath.row].locationName
         return cell
     }
     
