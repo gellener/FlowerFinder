@@ -21,6 +21,7 @@
 		9FE0E7B1281786CC00D548EB /* Flower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE0E7B0281786CC00D548EB /* Flower.swift */; };
 		9FE0E7B328179B5800D548EB /* Flowers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE0E7B228179B5700D548EB /* Flowers.swift */; };
 		9FE0E7B528182BF800D548EB /* UIViewController+alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE0E7B428182BF800D548EB /* UIViewController+alert.swift */; };
+		9FE8E09C281B4A9100EA31B7 /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE8E09B281B4A9100EA31B7 /* ExploreViewController.swift */; };
 		A50C390007D78889854CBC6C /* Pods_FinalProj.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5CB45D9D8BECB310038C915 /* Pods_FinalProj.framework */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +44,7 @@
 		9FE0E7B0281786CC00D548EB /* Flower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flower.swift; sourceTree = "<group>"; };
 		9FE0E7B228179B5700D548EB /* Flowers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flowers.swift; sourceTree = "<group>"; };
 		9FE0E7B428182BF800D548EB /* UIViewController+alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+alert.swift"; sourceTree = "<group>"; };
+		9FE8E09B281B4A9100EA31B7 /* ExploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
 		A5CB45D9D8BECB310038C915 /* Pods_FinalProj.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FinalProj.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -97,6 +99,7 @@
 				9FE0E7AE281785FD00D548EB /* FlowerDetailTableViewController.swift */,
 				9FE0E7B428182BF800D548EB /* UIViewController+alert.swift */,
 				9F1180EB28185E85005CB72F /* FlowerFactViewController.swift */,
+				9FE8E09B281B4A9100EA31B7 /* ExploreViewController.swift */,
 				9FD37A5A281774610060C9DC /* Main.storyboard */,
 				9FD37A5D281774640060C9DC /* Assets.xcassets */,
 				9FD37A5F281774640060C9DC /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 				9FE0E7AF281785FD00D548EB /* FlowerDetailTableViewController.swift in Sources */,
 				9FD37A57281774610060C9DC /* SceneDelegate.swift in Sources */,
 				9FE0E7AD2817845F00D548EB /* FlowersListViewController.swift in Sources */,
+				9FE8E09C281B4A9100EA31B7 /* ExploreViewController.swift in Sources */,
 				9F1180EC28185E85005CB72F /* FlowerFactViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
