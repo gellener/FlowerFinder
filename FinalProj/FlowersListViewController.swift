@@ -33,6 +33,7 @@ class FlowersListViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         flowers.loadData {
+            self.flowers.flowerArray.sort(by: {$0.flowerName < $1.flowerName})
             self.tableView.reloadData()
         }
     }
