@@ -7,16 +7,10 @@
 
 import UIKit
 import CoreLocation
-//import Firebase
-//import FirebaseAuthUI
-//import FirebaseGoogleAuthUI
-
 
 class FlowersListViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     
-    //    var flowers = ["tulip", "rose", "daffodil"]
-    //    var flowers: [Flower] = []
     var flowers: Flowers!
     
     override func viewDidLoad() {
